@@ -1,0 +1,110 @@
+/* Resume Card Component Styles */
+
+/* Card Container */
+.resume-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.resume-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Header Section */
+.resume-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Title */
+.resume-card__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333333;
+  margin: 0;
+}
+
+/* Content Section */
+.resume-card__content {
+  color: #666666;
+  line-height: 1.5;
+}
+
+/* Metadata Section */
+.resume-card__metadata {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  font-size: 0.875rem;
+  color: #888888;
+}
+
+/* Actions Section */
+.resume-card__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+/* Buttons */
+.resume-card__button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.resume-card__button--primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.resume-card__button--primary:hover {
+  background-color: #0056b3;
+}
+
+.resume-card__button--secondary {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.resume-card__button--secondary:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resume-card {
+    padding: 12px;
+  }
+
+  .resume-card__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .resume-card__metadata {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .resume-card__actions {
+    flex-direction: column;
+  }
+
+  .resume-card__button {
+    width: 100%;
+  }
+}
