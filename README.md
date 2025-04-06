@@ -1,14 +1,22 @@
 # 🎯 Dollaresume – AI-Powered Resume Generator  
 
-**Dollaresume** is a cutting-edge SaaS web application designed to help job seekers create **ATS-friendly, AI-powered resumes** in seconds. Built with **React, JavaScript, and Gadget**, this platform leverages advanced AI to streamline resume creation, making it effortless to craft professional and optimized resumes.  
+**Dollaresume** is a SaaS app that helps job seekers quickly create ATS-friendly, AI-powered resumes.
 
 ## 🚀 See Dollaresume in Action!  
 - **Try it out live:** [Dollaresume Web App](https://dollaresume.gadget.app/)  
 - **Watch the walkthrough:** [YouTube Demo](https://youtu.be/EgqFtLnch7k)  
 
-## ✨ Why Dollaresume?  
+## ✨ Key Features
 ✅ Instantly generates **AI-optimized resumes**  
 ✅ Ensures **ATS compatibility** for better job application success  
-✅ Sleek, user-friendly, and completely web-based  
+✅ Sleek, user-friendly, and completely web-based 
+
+## ⚡ How It Works
+- Input Your Information: Enter details like your job title, experience, and skills.
+- AI-Powered Resume Creation: Let Dollaresume’s AI optimize your resume based on your information.
+- Download & Apply: Download your resume and start applying to your dream jobs!
+
+
+ 
 
 Start creating your perfect resume today! 🚀💼  
